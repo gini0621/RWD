@@ -1,5 +1,6 @@
-/*當裝置小於768px 大於321 平板寬度*/
-@media only screen and (min-width: 321px) and (max-width: 768px){
+
+/*當裝置小於320px 大於0 手機寬度*/
+@media only screen and (min-width: 0px) and (max-width: 320px){
     html{
         width: 100%;
     }
@@ -9,10 +10,11 @@
     }
     
     
+   
     .navbar-brand img {
-        height: 40px;
-        width: 135.2px;
-        margin-left: 30px;
+        width: 90px;
+        height: 27px;
+        margin-left: 18px;
         margin-top: 15px;
         margin-bottom: 15px;
     }
@@ -57,7 +59,7 @@
     }
 
     .WorldView-text span{
-        font-size: 32px;
+        font-size: 24px;
         font-family: 'Noto Sans TC', sans-serif;
         font-weight: 500;
         display: flex;
@@ -68,14 +70,7 @@
     }
     
     .WorldView-text p{
-        font-size: 19px;
-        font-family: 'Noto Sans TC', sans-serif;
-        margin-top: 28px;
-        margin-bottom: 28px;
-        letter-spacing: 1px;
-        display: flex;
-        justify-content: center;
-        text-align: center;
+        display: none;
        
     }
     
@@ -86,11 +81,7 @@
 
     }
     
-    .WorldView-img{
-        margin-top: 51px;
-       
-    }
-
+  
     .Learn{
         display: flex;
         justify-content: center;
@@ -114,6 +105,7 @@
     
     }
     
+    
     .learnmore p{
         margin: 0;
         font-size: 12px;
@@ -128,13 +120,14 @@
     }
     
     .WorldView-img{
-        margin-top: 46px;
+        margin-top: 23px;
         width: 100%;
         height: auto;
         padding: 0;
        
     }
-
+    
+    
     .roleintro{
         background-color: #364369;
         margin-top: 49px;
@@ -143,7 +136,7 @@
     }
 
     .alisa img{
-        margin-top: 46px;
+        margin-top: 23px;
        
         
     }
@@ -153,13 +146,13 @@
     }
 
     .roleintro-text{
-        margin-top: 150px;
+        margin-top: 37px;
         
         
     }
     
     .roleintro-text span{
-        font-size: 32px;
+        font-size: 24px;
         font-family: 'Noto Sans TC', sans-serif;
         color: #fff;
         font-weight: 500;
@@ -170,17 +163,7 @@
     }
     
     .roleintro-text p{
-        font-size: 20px;
-        font-family: 'Noto Sans TC', sans-serif;
-        margin-top: 29px;
-        margin-bottom: 83px;
-        color: #fff;
-        letter-spacing: 1px;
-        font-weight: 300;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        padding: 0;
+        display: none;
     }
 
     .Learn1{
@@ -239,6 +222,8 @@
         font-family: 'Noto Sans TC', sans-serif;
         color: #fff;
         margin: 0;
+        padding-top: 27px;
+        padding-bottom: 27px;
     }
     
     .footericon{
@@ -252,6 +237,23 @@
         width: 124px;
         height: 37px;
     }
+
+    .ig ,.fb ,.line{
+        width: 28px;
+        height: 28px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }

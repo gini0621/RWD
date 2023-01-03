@@ -65,7 +65,7 @@ header li{
 
 .WorldView-text{
     margin-top: 241px;
-    padding-left: 130px;
+    padding-left: 45px;
     
 }
 
@@ -77,7 +77,7 @@ header li{
 .Learn{
     display: flex;
     justify-content: flex-end;
-    padding-right: 105px;
+    padding-right: 15px;
 }
 
 .learnmore{
@@ -110,20 +110,20 @@ header li{
 .roleintro{
     background-color: #364369;
     margin-top: 49px;
-    height: 702px;
+    
     
 }
 
 .alisa img{
     margin-top: 51px;
-    
+    margin-bottom: 51px;
 }
 
 
 
 .roleintro-text{
     margin-top: 150px;
-    
+    padding-left: 37px;
     
 }
 
@@ -132,7 +132,7 @@ header li{
     font-family: 'Noto Sans TC', sans-serif;
     color: #fff;
     font-weight: 500;
-    padding-left: 110px;
+    
 }
 
 .roleintro-text p{
@@ -143,14 +143,14 @@ header li{
     color: #fff;
     letter-spacing: 1px;
     font-weight: 300;
-    padding-left: 110px;
+    
     
 }
 
 .Learn1{
     display: flex;
     justify-content: flex-end;
-    padding-right: 135px;
+    padding-right: 30px;
 }
 
 
