@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./css/tablet.css" media="only screen and (min-width: 321px) and (max-width: 768px)">
     <link rel="stylesheet" href="./css/phone.css" media="only screen and (min-width: 0px) and (max-width: 320px)" />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/3.0.0-beta.6/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/3.0.0-beta.6/aos.js"></script>
 
 </head>
 <body>
@@ -81,7 +83,7 @@
     <div class="WorldView" id="section2">
       <div class="container-fluid worldview">
         <div class="row ">
-          <div class="col-md-6 WorldView-text">
+          <div class="col-md-6 WorldView-text" data-aos="fade-right">
             <span>世界觀</span>
             <br>
             <p>
@@ -106,7 +108,7 @@
           </div>
 
           <div class="col-md-6  WorldView-img">
-            <img src="./img/Worldview.png" alt="" class="img-fluid">
+            <img src="./img/Worldview.png" alt="" class="img-fluid" data-aos="fade-left">
           </div>
 
         </div>
@@ -119,7 +121,7 @@
       <div class="container-fluid roleintro">
         <div class="row">
 
-          <div class="col-md-6 roleintro-text">
+          <div class="col-md-6 roleintro-text" data-aos="fade-right">
             <span>角色故事</span>
             <br>
             <p>
@@ -152,7 +154,7 @@
 
           </div>
           <div class="col-md-6 alisa">
-            <img src="./img/alisa2.png" alt="" class="img-fluid">
+            <img src="./img/alisa2.png" alt="" class="img-fluid" data-aos="fade-left">
           </div>
 
           
@@ -198,5 +200,8 @@
 
     <script src="js/jQuery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
