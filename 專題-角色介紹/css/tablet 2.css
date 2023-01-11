@@ -1,0 +1,16 @@
+@media only screen and (min-width: 0px) and (max-width: 320px){
+
+    .wordview-text p {
+        font-size: 18px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .logo2{
+        height: 37px;
+        width: 124px;
+        margin-bottom: 27px;
+    }
+    .footericon{
+        margin-top: 27px;
+    }
+}
